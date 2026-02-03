@@ -86,3 +86,64 @@ These characteristics justify the use of **collaborative filtering**.
 
 ```python
 recommend_artists(user_id=2, n_recommendations=5)
+```
+
+Returns a list of recommended artists the user has not listened to before.
+
+⚠️ Challenges
+
+Data sparsity
+
+Cold-start users
+
+Popularity bias
+
+Scalability for very large datasets
+
+🔮 Future Improvements
+
+Item/Artist-based collaborative filtering
+
+Hybrid recommendation system
+
+Model-based approaches (SVD, Matrix Factorization)
+
+Better evaluation metrics
+
+🛠️ Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Matplotlib
+
+✅ Conclusion
+
+This project demonstrates how a memory-based user-based collaborative
+filtering recommendation system can be built using real-world music listening
+data. It highlights the importance of similarity measures and user behavior in
+personalized recommendations.
+
+📌 Author
+
+Devendra Kushwah
+
+
+---
+
+## 📁 Final Project Structure (Suggested)
+
+
+
+lastfm-music-recommendation-system/
+│
+├── Spotify.ipynb
+├── user_artists.dat
+├── artists.dat
+├── README.md
+├── requirements.txt
